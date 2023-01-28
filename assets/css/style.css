@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+#hero {
+    padding: 50px 0 50px 0;
+}
+
+.hero-img {
+    width: 50;
+}
+
+.hero-title {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.hero-subtitle {
+    font-size: 1.2rem;
+}
+
+#feature {
+    padding: 100px 0 100px 0;
+    text-align: center;
+}
+
+
+
+.feature-title {
+    color: #ffffff;
+}
+
+.card {
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card-logo {
+    font-size: 3rem;
+}
+
+#excellence {
+    padding: 60px 0 60px 0;
+}
+
+.excellence-title {
+    font-size: 3rem;
+}
+
+.excellence-item p {
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+}
+
+.bxs-check-circle {
+    font-size: 3rem;
+    color: #007bff;
+    margin-right: 5px;
+}
+
+.excellence-img {
+    width: 650;
+}
+
+#kenawhy {
+    background-color: #eeeeee;
+    padding: 100px 0 100px 0;
+}
+
+.card-custom {
+    text-align: left;
+}
+
+#footer {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 80px 0 20px 0;
+}
+
+.copyright-text {
+    border-top: 2px solid #ffffff;
+    margin-top: 3rem;
+    padding-top: 30px;
+}
+
+.copyright-text a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#card card-2 a{
+	text-decoration: none;
+	color: black;
+}
+
+#card col-md-4 a{
+	text-decoration: none;
+	color: white;
+}
+
+#footer a{
+	text-decoration: none;
+	color: white;
+}
+
+#feature a{
+	text-decoration: none;
+	color: black;
+}
+
+/* Center the loader */
+
+#loader {
+
+position: absolute;
+left: 50%;
+top: 50%;
+z-index: 1;
+width: 150px;
+height: 150px;
+margin: -75px 0 0 -75px;
+border: 16px solid #f3f3f3;
+border-radius: 50%;
+border-top: 16px solid #3498db;
+width: 120px;
+height: 120px;
+-webkit-animation: spin 2s linear infinite;
+animation: spin 2s linear infinite;
+}
+
+
+
+@-webkit-keyframes spin {
+0% { -webkit-transform: rotate(0deg); }
+100% { -webkit-transform: rotate(360deg); }
+}
+
+
+
+@keyframes spin {
+0% { transform: rotate(0deg); }
+100% { transform: rotate(360deg); }
+}
+
+.left    { text-align: left;}
+
+.right   { text-align: right;}
+
+.center  { text-align: center;}
+
+.justify { text-align: justify;}
