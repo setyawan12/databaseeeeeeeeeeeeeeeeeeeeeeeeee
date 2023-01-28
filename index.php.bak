@@ -1,6 +1,6 @@
 <?php 
 /// koneksi ke database
-$conn = mysqli_connect("-hcontainers-us-west-30.railway.app", "root", "OepMAI5EZnfEy3CjkxBf", "railway");
+$conn = mysqli_connect("sql306.epizy.com", "epiz_32972482", "ahlXVclRp3", "epiz_32972482_mestere");
 // ambil data dari tabel
 $result = mysqli_query($conn, "SELECT * FROM pln");
 
